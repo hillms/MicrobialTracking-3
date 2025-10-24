@@ -1,4 +1,4 @@
-# MT-2 and MT-3 ISS Microbiome Analysis
+# ISS Microbiome Analysis
 
 R scripts for analyzing microbiome data from the International Space Station (ISS) Missions MT-2 and MT-3, including differential abundance analysis, antibiotic resistance genes (ARGs), virulence factors (VFs), lateral gene transfer (LGT), and phenotypic characterization.
 
@@ -184,19 +184,20 @@ source("04_taxa_abundance_skin_qPCR.R")
 - **Rarefaction depth**: 10,000 reads per sample
 - **Significance threshold**: p < 0.05 (FDR-adjusted)
 - **Effect size threshold**: |effect| > 0.5 for biological relevance
-- **Missing data**: Samples with NA surfaces are excluded
 - **Flight 8**: Excluded from all analyses
-- **PMA treatment**: "Yes" = viable cells, "No" = total DNA
+- **PMA treatment**: "Yes" = viable cells, "No" = untreated DNA
 
 ## Citation
 
 If using these scripts, please cite:
 
-[Your publication details here]
+Hill MS, Simpson AC, Minnis VR, Rushton E, Salas Garcia MC, Lax S, Mahnert A, Chung RK, Bone D,
+Matty M, Venkateswaran K, & Gilbert JA. Spatiotemporal Microbial Ecoevolutionary Dynamics on the International Space Station
+
 
 ## Contact
 
-[Your contact information]
+msthoemmes@gmail.com
 
 ## License
 
